@@ -1,3 +1,6 @@
+# Disclaimer:
+**There currently is no script, please star this project and check back in later**
+
 # Description
 *open* is a cli tool that serves as an abstraction layer for opening files from the commandline.
 
