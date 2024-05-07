@@ -1,0 +1,97 @@
+openers:
+  text:
+    tools:
+      main: "nvim"
+      alt:
+        - "less"
+        - "vim"
+        - "vi"
+    mime_types:
+      - "text/plain"
+      - "application/javascript"
+      - "application/ecmascript"
+      - "application/x-ecmascript"
+      - "application/x-javascript"
+      - "text/ecmascript"
+      - "text/javascript1.0"
+      - "text/javascript1.1"
+      - "text/javascript1.2"
+      - "text/javascript1.3"
+      - "text/javascript1.4"
+      - "text/javascript1.5"
+      - "text/jscript"
+      - "text/livescript"
+      - "text/x-ecmascript"
+      - "text/x-javascript"
+      - "text/markdown"
+      - "application/json"
+      - "text/x-shellscript"
+      - "text/css"
+      - "text/x-python"
+      - "application/x-sh"
+      - "text/html"
+      - "inode/x-empty"
+      - "text/x-php"
+      - "application/x-mspublisher"
+  spreadsheet:
+    tools:
+      main: "<++>"
+      alt:
+        - "<++>"
+    mime_types:
+      - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+  pdf:
+    tools:
+      main: "<++>"
+      alt:
+        - "<++>"
+    mime_types:
+      - "image/vnd.djvu"
+      - "application/pdf"
+      - "application/octet-stream"
+      - "application/postscript"
+  audio:
+    tools:
+      main: "<++>"
+      alt:
+        - "<++>"
+    mime_types:
+      - "audio/x-aiff"
+      - "audio/mpeg"
+  video:
+    tools:
+      main: "<++>"
+      alt:
+        - "<++>"
+    mime_types:
+      - "video/x-matroska"
+      - "video/3gpp"
+      - "video/x-ms-asf"
+      - "video/3gpp"
+      - "video/3gpp"
+      - "video/x-flv"
+      - "video/mpeg"
+      - "video/x-msvideo"
+      - "video/x-f4v"
+      - "video/x-m4v"
+      - "video/quicktime"
+      - "video/mp4"
+      - "model/vnd.mts"
+      - "application/mxf"
+      - "video/ogg"
+      - "application/vnd.rn-realmedia"
+      - "application/x-shockwave-flash"
+      - "text/vnd.trolltech.linguist"
+      - "video/x-ms-vob"
+      - "video/webm"
+      - "video/x-ms-wmv"
+  image:
+    tools:
+      main: "<++>"
+      alt:
+        - "<++>"
+    mime_types:
+      - "image/png"
+      - "image/jpeg"
+      - "image/webp"
+      - "image/gif"
