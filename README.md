@@ -8,8 +8,8 @@
 # Installation
 
 ## Dependencies
- - fqf
- - yq
+ - [fqf](https://github.com/junegunn/fzf)
+ - [yq](https://github.com/mikefarah/yq)
 
 ### Install dependencies
 
