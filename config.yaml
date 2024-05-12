@@ -1,5 +1,5 @@
 openers:
-  - type: text:
+  - type: text
     tools:
       main: "nvim"
       alt:
@@ -33,14 +33,14 @@ openers:
       - "inode/x-empty"
       - "text/x-php"
       - "application/x-mspublisher"
-  - type: spreadsheet:
+  - type: spreadsheet
     tools:
       main: "<++>"
       alt:
         - "<++>"
     mime_types:
       - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-  - type: pdf:
+  - type: pdf
     tools:
       main: "<++>"
       alt:
@@ -50,7 +50,7 @@ openers:
       - "application/pdf"
       - "application/octet-stream"
       - "application/postscript"
-  - type: audio:
+  - type: audio
     tools:
       main: "<++>"
       alt:
@@ -58,7 +58,7 @@ openers:
     mime_types:
       - "audio/x-aiff"
       - "audio/mpeg"
-  - type: video:
+  - type: video
     tools:
       main: "<++>"
       alt:
@@ -85,7 +85,7 @@ openers:
       - "video/x-ms-vob"
       - "video/webm"
       - "video/x-ms-wmv"
-  - type: image:
+  - type: image
     tools:
       main: "<++>"
       alt:
