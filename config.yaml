@@ -1,13 +1,19 @@
 openers:
   - type: text
     tools:
-      main: "nvim"
-      alt:
-        - "less"
-        - "vim"
-        - "vi"
+      - name: "Main Editor"
+        cmd: "nvim"
+      - name: "Main Editor (Sudo)"
+        cmd: "sudo nvim"
+      - name: "Pager"
+        cmd: "less"
+      - name: "vim"
+        cmd: "vim"
+      - name: "vi"
+        cmd: "vi"
     mime_types:
       - "text/plain"
+      - "text/*"
       - "application/javascript"
       - "application/ecmascript"
       - "application/x-ecmascript"
@@ -35,16 +41,15 @@ openers:
       - "application/x-mspublisher"
   - type: spreadsheet
     tools:
-      main: "<++>"
-      alt:
-        - "<++>"
+      - name: LibreOffice
+        cmd: libreoffice
     mime_types:
       - "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+      - "application/vnd.oasis.opendocument.spreadsheet"
   - type: pdf
     tools:
-      main: "<++>"
-      alt:
-        - "<++>"
+      - name: Zathura
+        cmd: zathura
     mime_types:
       - "image/vnd.djvu"
       - "application/pdf"
@@ -52,17 +57,11 @@ openers:
       - "application/postscript"
   - type: audio
     tools:
-      main: "<++>"
-      alt:
-        - "<++>"
     mime_types:
       - "audio/x-aiff"
       - "audio/mpeg"
   - type: video
     tools:
-      main: "<++>"
-      alt:
-        - "<++>"
     mime_types:
       - "video/x-matroska"
       - "video/3gpp"
@@ -87,11 +86,18 @@ openers:
       - "video/x-ms-wmv"
   - type: image
     tools:
-      main: "<++>"
-      alt:
-        - "<++>"
+      - name: "View"
+        cmd: "nsxiv"
+      - name: "Edit"
+        cmd: "pinta"
     mime_types:
       - "image/png"
       - "image/jpeg"
       - "image/webp"
       - "image/gif"
+  - type: drawing
+    mime_types:
+      - application/vnd.oasis.opendocument.graphics
+    tools:
+      - name: LibreOffice
+        cmd: libreoffice
